@@ -53,8 +53,9 @@ void soundCompleteCallBack(SystemSoundID soundID, void * clientDate) {
 }
 
 +(void)playingSystemSoundWithSoundName:(NSString *)name ofType:(NSString *)type isVibrate:(BOOL)vibrate{
-    
-    NSString *path = [[NSBundle bundleWithIdentifier:@"com.apple.UIKit"] pathForResource:name ofType:type];
+
+    NSString *path = [NSString stringWithFormat:@"/System/Library/Audio/UISounds/%@.%@",name,type];
+
     if (path) {
         SystemSoundID theSoundID;
         OSStatus error =  AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path], &theSoundID);

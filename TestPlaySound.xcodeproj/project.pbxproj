@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843226201EF0D76000521D43 /* airplane.aac in Resources */ = {isa = PBXBuildFile; fileRef = 8432261F1EF0D76000521D43 /* airplane.aac */; };
 		849C444C1EEFB433007C30E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C444B1EEFB433007C30E9 /* main.m */; };
 		849C444F1EEFB433007C30E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C444E1EEFB433007C30E9 /* AppDelegate.m */; };
 		849C44521EEFB433007C30E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C44511EEFB433007C30E9 /* ViewController.m */; };
@@ -15,9 +16,11 @@
 		849C445A1EEFB433007C30E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C44581EEFB433007C30E9 /* LaunchScreen.storyboard */; };
 		849C44631EEFB934007C30E9 /* LPPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C44621EEFB934007C30E9 /* LPPlaySound.m */; };
 		849C44661EEFBA9F007C30E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849C44651EEFBA9F007C30E9 /* AudioToolbox.framework */; };
+		84C482701EF01DF600A4F1BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4826F1EF01DF600A4F1BF /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8432261F1EF0D76000521D43 /* airplane.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = airplane.aac; sourceTree = SOURCE_ROOT; };
 		849C44471EEFB433007C30E9 /* TestPlaySound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPlaySound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C444B1EEFB433007C30E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849C444D1EEFB433007C30E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		849C44611EEFB934007C30E9 /* LPPlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPlaySound.h; sourceTree = "<group>"; };
 		849C44621EEFB934007C30E9 /* LPPlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPlaySound.m; sourceTree = "<group>"; };
 		849C44651EEFBA9F007C30E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84C4826F1EF01DF600A4F1BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C482701EF01DF600A4F1BF /* UIKit.framework in Frameworks */,
 				849C44661EEFBA9F007C30E9 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +70,7 @@
 		849C44491EEFB433007C30E9 /* TestPlaySound */ = {
 			isa = PBXGroup;
 			children = (
+				8432261F1EF0D76000521D43 /* airplane.aac */,
 				849C44611EEFB934007C30E9 /* LPPlaySound.h */,
 				849C44621EEFB934007C30E9 /* LPPlaySound.m */,
 				849C444D1EEFB433007C30E9 /* AppDelegate.h */,
@@ -91,6 +97,7 @@
 		849C44641EEFBA9F007C30E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84C4826F1EF01DF600A4F1BF /* UIKit.framework */,
 				849C44651EEFBA9F007C30E9 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
@@ -158,6 +165,7 @@
 				849C445A1EEFB433007C30E9 /* LaunchScreen.storyboard in Resources */,
 				849C44571EEFB433007C30E9 /* Assets.xcassets in Resources */,
 				849C44551EEFB433007C30E9 /* Main.storyboard in Resources */,
+				843226201EF0D76000521D43 /* airplane.aac in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +338,7 @@
 				849C44601EEFB433007C30E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

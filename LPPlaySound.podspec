@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LPPlaySound"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "播放音效"
   s.description  = <<-DESC
             播放本地音效或系统音效

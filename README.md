@@ -2,13 +2,13 @@
 播放音效
 
 
-###安装
+### 安装
 
 ```ruby
 	pod 'LPPlaySound'
 ```
 
-###使用
+### 使用
 ```objc
     //使用系统soundid 来播放音效
     [LPPlaySound playingSystemSoundWithSoundID:(UInt32)1007 isVibrate:NO];
